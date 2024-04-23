@@ -8,7 +8,7 @@ export default defineConfig(() => ({
   server: {
     port: 3000,
     proxy: {
-      '/api/socket': 'ws://149.50.222.109',
+      '/api/socket': 'ws://149.50.222.109:8082',
       '/api': 'http://149.50.222.109',
     },
   },
